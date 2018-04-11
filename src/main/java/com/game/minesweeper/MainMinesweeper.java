@@ -2,8 +2,8 @@ package com.game.minesweeper;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.cft.fs_latyntseva.task_4.Models.Model;
-import ru.cft.fs_latyntseva.task_4.Views.View;
+import com.game.minesweeper.Models.Model;
+import com.game.minesweeper.Views.View;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,0 +1,18 @@
+<configuration>
+
+    <property resource="resource1.properties" />
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <!-- Here we can refer to the variable
+         defined at the resource1.properties -->
+        <file>MineSweeper.log</file>
+        <encoder>
+            <pattern>%date %level [%thread] %logger{10} [%file : %line] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="warn">
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

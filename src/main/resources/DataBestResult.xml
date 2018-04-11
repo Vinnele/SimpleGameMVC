@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gamer id="1">
+    <Difficulties id="beginner">
+    <numberOfGamesPlayed>15</numberOfGamesPlayed>
+    <numberOfWon>1</numberOfWon>
+    <percentOfWon>6.66</percentOfWon>
+    <dateOfWon>29.12.2017</dateOfWon>
+   </Difficulties>
+</Gamer>
