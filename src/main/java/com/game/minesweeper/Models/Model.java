@@ -48,15 +48,6 @@ public class Model extends Observable {
 
     private final Logger log = LoggerFactory.getLogger(Model.class);
 
-
-    public enum StateGame {
-        lose,
-        won,
-        running
-
-    }
-
-
     private String rules;
 
     /**
@@ -67,7 +58,6 @@ public class Model extends Observable {
     public Model(String EnumDiff) {
 
         setDifficulty(EnumDiff);
-
 
     }
 
@@ -281,8 +271,6 @@ public class Model extends Observable {
 
             for (int j = 0; j < numberRows; j++) {
                 System.out.print(field[i][j].getField_id() + " ");
-
-
             }
             //System.out.println();
 
